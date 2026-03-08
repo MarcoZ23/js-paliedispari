@@ -37,7 +37,10 @@ let parolaInvertita = invertiParola(parolaUtente);
     console.log(parolaInvertita);
     
     
-
 // 3. Se parolaUtente === parolaInv stampa true altrimenti false 
-
-// 4. Se true la parola è palindroma  
+if (parolaUtente === parolaInvertita) {
+   console.log("la parola è palindroma")
+} else {
+   console.log("la parola non è palindroma")
+}
+  
