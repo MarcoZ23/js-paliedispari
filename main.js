@@ -27,6 +27,16 @@ let parolaUtente = prompt("inserisci una parola")
     
 
 // 2. Function che inverte la parola inserita dall'utente 
+function invertiParola (parola) {
+    const parolaArray = parola.split("")
+    parolaArray.reverse()
+    const parolaInvertita = parolaArray.join("")
+    return parolaInvertita; 
+}
+let parolaInvertita = invertiParola(parolaUtente);
+    console.log(parolaInvertita);
+    
+    
 
 // 3. Se parolaUtente === parolaInv stampa true altrimenti false 
 
