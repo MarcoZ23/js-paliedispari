@@ -13,7 +13,7 @@ Ho bisogno di parametri?
 Devo restituire un valore?
 Se sì, di che tipo?
 */ 
-/*
+
 // 1. Prompt per inserire la parola
 let parolaUtente = prompt("inserisci una parola")
     console.log(parolaUtente);
@@ -36,7 +36,7 @@ if (parolaUtente === parolaInvertita) {
 } else {
    console.log("la parola non è palindroma")
 }
-  */
+  
 /*
 Pari e Dispari
 L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
@@ -77,3 +77,8 @@ function pariDispari(numero) {
 const risultato = pariDispari(somma);
     console.log(risultato);
 // 5. Dichiarare il vincitore 
+if (risultato === sceltaUtente) {
+    console.log("Hai vinto");
+} else {
+    console.log("Ha vinto il pc");
+}
