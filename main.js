@@ -22,6 +22,9 @@ Se sì, di che tipo?
 */ 
 
 // 1. Prompt per inserire la parola
+let parolaUtente = prompt("inserisci una parola")
+    console.log(parolaUtente);
+    
 
 // 2. Function che inverte la parola inserita dall'utente 
 
