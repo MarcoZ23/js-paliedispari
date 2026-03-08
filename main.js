@@ -51,8 +51,13 @@ let sceltaUtente = prompt("pari o dispari")
 let numeroUtente = parseInt(prompt("numero da 1 a 5"))
     console.log(numeroUtente);
     
-// 2. Generare numero randommda 1 a 5 
-
+// 2. Generare numero random da 1 a 5 
+function numeroRandom() {
+    return Math.floor(Math.random() * 5) + 1;
+}
+let numeroPc = numeroRandom()
+    console.log(numeroPc);
+    
 // 3. Sommare numeroUtente e numeroPc 
 
 // 4. Fare funzione per stabilire se la somma è pari o dispari 
