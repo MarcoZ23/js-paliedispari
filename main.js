@@ -67,5 +67,13 @@ const somma = sommaNumeri (numeroUtente, numeroPc);
     console.log(somma);
     
 // 4. Fare funzione per stabilire se la somma è pari o dispari 
-
+function pariDispari(numero) {
+    if (numero % 2 === 0) {
+        return "pari";
+    } else {
+        return "dispari";
+    }
+}
+const risultato = pariDispari(somma);
+    console.log(risultato);
 // 5. Dichiarare il vincitore 
