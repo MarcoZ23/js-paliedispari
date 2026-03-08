@@ -59,7 +59,13 @@ let numeroPc = numeroRandom()
     console.log(numeroPc);
     
 // 3. Sommare numeroUtente e numeroPc 
-
+function sommaNumeri (num1, num2) {
+const risultato = num1 + num2; 
+return risultato;
+}
+const somma = sommaNumeri (numeroUtente, numeroPc); 
+    console.log(somma);
+    
 // 4. Fare funzione per stabilire se la somma è pari o dispari 
 
 // 5. Dichiarare il vincitore 
